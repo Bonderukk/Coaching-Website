@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kouč & Expert</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satoshi:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="name">Stano Sladek</div>
+        <ul class="nav-links">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#contact">KONTAKT</a></li>
+        </ul>
+    </nav>
+
+    <div class="image-section" id="about">
+        <img src="stano_better.jpg" alt="Expert Image">
+        <div class="text-overlay">
+            <h1>KOUČ & EXPERT</h1>
+            <h2>Stano Sladek</h2>
+            <p>
+                Ako koučka a lektorka, expertka na teenagerov a zdravé sebavedomie žien vo vzťahoch pomáham budovať rešpektujúce vzťahy, nastaviť si zdravé osobné hranice, objaviť vlastnú sebahodnotu a sebavedomie, naučiť sa podporujúcou komunikáciou dosiahnuť prepojenie generácií a prerámcovať neúžitočné vzorce vo vzťahoch.
+            </p>
+        </div>
+    </div>
+
+    <div class="service-boxes" id="services">
+        <div class="box turquoise">Life koučing pre rodičov a dospelých</div>
+        <div class="box light-gray">Koučing teenagerov a prepájanie generácií</div>
+        <div class="box dark-gray">Efektívna komunikácia a rešpektujúce vzťahy pre skupiny</div>
+        <div class="box light-gray">Rodinné konštelácie s figúrkami</div>
+    </div>
+
+    <footer id="contact">
+        <div class="contact-form">
+            <h2>Neváhaj ma kontaktovať</h2>
+            <form action="send_email.php" method="post">
+                <input type="text" name="name" placeholder="Tvoje meno*" required>
+                <input type="email" name="email" placeholder="Tvoj email*" required>
+                <input type="tel" name="phone" placeholder="Telefónny kontakt">
+                <input type="text" name="subject" placeholder="Predmet *" required>
+                <textarea name="message" placeholder="Tvoja správa*" required></textarea>
+                <button type="submit">Odoslať</button>
+            </form>
+        </div>
+    </footer>
+
+</body>
+</html>
