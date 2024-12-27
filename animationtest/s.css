@@ -1,0 +1,33 @@
+body {
+    min-height: 200vh; /* Make the body at least 2 times the viewport height */
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    height: 200vh; /* Make content 2 times the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background: orange;
+}
+
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .square-animation {
+        animation: wipe-enter 1s 1;
+    }
+}
